@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>트렌드: 서울 서부권 로컬 SEO 새ᅢᆼ존ᆫ 가이드</title>
+    <meta name="description" content="알고리즘은 변한다. 서울 서부권 자영업자들을 위한 마르지 않는 1 급수 백링크 주스 공급소의 최신 트렌드 및 뉴스.">
+    <meta name="keywords" content="트렌드, 로컬 SEO, 백링크 주스, 서울 서부권, 자영업자 브로, 1 급수 정화, 마케팅 뉴스">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <link rel="canonical" href="https://water-server.store/trends">
+    <meta property="og:title" content="트렌드: 로컬 SEO 는 죽지 않았다, 개조되었을 뿐이다">
+    <meta property="og:description" content="마르지 않는 1 급수 백링크 주스 공급소. 알고리즘 업데이트 속 살아남는 법을 알려준다.">
+    <meta property="og:url" content="https://water-server.store/trends">
+    <meta property="og:type" content="website">
+    <style>
+        /* CORE VARIABLES & RESET */
+        :root {
+            --bg-color: #0a0a0a;
+            --text-color: #f0f0f0;
+            --accent-color: #fff100; /* Acid Yellow */
+            --border-width: 3px;
+            --spacing-unit: 1.5rem;
+            --font-main: 'Courier New', Courier, monospace; /* Brutalist Mono */
+            --font-head: 'Arial Black', 'Helvetica Neue', sans-serif;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+            border: var(--border-width) solid var(--text-color); /* Outer Frame */
+            min-height: 100vh;
+        }
+
+        /* TYPOGRAPHY */
+        h1, h2, h3 {
+            font-family: var(--font-head);
+            text-transform: uppercase;
+            line-height: 1.1;
+            letter-spacing: -1px;
+        }
+
+        h1 { font-size: clamp(2rem, 5vw, 4rem); margin-bottom: var(--spacing-unit); color: var(--accent-color); }
+        h2 { font-size: clamp(1.5rem, 3vw, 2.5rem); margin-bottom: 1rem; border-bottom: var(--border-width) solid var(--accent-color); display: inline-block; }
+        h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+        p { margin-bottom: 1rem; font-size: 1rem; max-width: 70ch; }
+
+        a { color: var(--text-color); text-decoration: none; transition: 0.2s; }
+        a:hover { background-color: var(--accent-color); color: var(--bg-color); }
+
+        /* HEADER & NAV */
+        header {
+            border-bottom: var(--border-width) solid var(--text-color);
+            padding: var(--spacing-unit);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-family: var(--font-head);
+            font-size: 1.5rem;
+            border: 2px solid var(--text-color);
+            padding: 0.5rem 1rem;
+            background: var(--text-color);
+            color: var(--bg-color);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+
+        nav li a {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        /* HAMBURGER MENU (Mobile) */
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+        }
+        .hamburger-menu span {
+            width: 30px;
+            height: 4px;
+            background-color: var(--text-color);
+            transition: 0.3s;
+        }
+
+        /* MAIN CONTENT */
+        main {
+            padding: var(--spacing-unit);
+            max-width: 1200px;
+            margin: 0 auto;
+            min-height: 70vh;
+        }
+
+        section {
+            margin-bottom: calc(var(--spacing-unit) * 3);
+            border: var(--border-width) solid var(--text-color);
+            padding: var(--spacing-unit);
+            background: #111;
+        }
+
+        /* CARDS */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--spacing-unit);
+        }
+
+        .card {
+            border: var(--border-width) solid var(--text-color);
+            padding: var(--spacing-unit);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translate(-5px, -5px);
+            box-shadow: 5px 5px 0px var(--accent-color);
+        }
+
+        .card-date {
+            font-size: 0.8rem;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            border: 1px solid var(--accent-color);
+            display: inline-block;
+            padding: 2px 6px;
+        }
+
+        /* FOOTER */
+        footer {
+            border-top: var(--border-width) solid var(--text-color);
+            padding: var(--spacing-unit);
+            text-align: center;
+            font-size: 0.8rem;
+            background: var(--bg-color);
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .hamburger-menu { display: flex; }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: var(--bg-color);
+                border-bottom: var(--border-width) solid var(--text-color);
+                padding: var(--spacing-unit);
+                gap: 1rem;
+            }
+            nav ul.active { display: flex; }
+            .card-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">WATER SERVER</div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="/">메인 (Home)</a></li>
+                <li><a href="/trends">트렌드 (Trends)</a></li>
+                <li><a href="/about">자영업자 브로 (About)</a></li>
+                <li><a href="/contact">급수 신청 (Contact)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section 1: Main Trend Analysis -->
+        <section>
+            <h1>트렌드: 알고리즈ᅳᆷ은 변한다, <br>갈증은 여전하다.</h1>
+            <p>
+                2024 년, 구쁠 코어 업데이트는 자비 따위 ᄋ없다. 서울 서부ᄔᅯᆫ, 구로와 강서, 그리고 양천까지.
+                로컬 상권은 지금 '신뢰도' 전쟁 중이다. 
+                화려한 이미지가 아니다. <strong>진짜 데이터</strong>가 필요하다.
+            </p>
+            <p style="border-left: 4px solid var(--accent-color); padding-left: 1rem; margin-top: 1rem;">
+                "백링크가 줄었다고? 그건 네가 2 급수만 마셔서 그렇다. 
+                난 도시에 1 급수만 뿌린다." - 자영업자 브로
+            </p>
+        </section>
+
+<!-- SEO Visual 2: 콘텐츠 급수 정화 Brutalist Typography Cards -->
+<div class="seo-visual-cards" role="img" aria-label="마르지 않는 1급수 백링크 주스 공급 서비스 콘텐츠 급수 정화 — 신뢰할 수 있는 서비스" 
+     style="display:flex;flex-direction:column;gap:80px;margin:120px auto;max-width:1100px;padding:0 24px">
+  <div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">01</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">SEO 대책</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">마르지 않는 1급수 백링크 주스 공급 서비스</div>
+  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">02</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">집객 지원</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">마르지 않는 1급수 백링크 주스 공급 서비스</div>
+  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">03</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">분석</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">마르지 않는 1급수 백링크 주스 공급 서비스</div>
+  </div>
+</div>
+
+        <!-- Section 2: News Cards -->
+        <section>
+            <h2>최신 급수 보고서 (News)</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <div>
+                        <span class="card-date">2024. 10. 24</span>
+                        <h3>구글 로컬 팩, 지도 '공유' 신호 포착</h3>
+                        <p>단순 클릭을 넘어선 행동 지표를 포착했다. 지도 공유 링크가 백링크 주스처럼 작동하고 있다. 카카오톡 공유, URL 복사가 트래ᅢ픽을 바꾼다.</p>
+                    </div>
+                    <a href="#" style="margin-top:1rem; font-weight:bold;">자세히 보기 &rarr;</a>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <span class="card-date">2024. 10. 18</span>
+                        <h3>서부권 자영업자, 블로그 '에이틴 (AI)' 활용법</h3>
+                        <p>사람이 쓴 척하는 뻔한 글은 이제 안 먹힌다. 노골적이지만 도움이 되는, 데이터 기반의 '브로' 같은 글이 1 급수다.</p>
+                    </div>
+                    <a href="#" style="margin-top:1rem; font-weight:bold;">자세히 보기 &rarr;</a>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <span class="card-date">2024. 10. 05</span>
+                        <h3>도메인 만료 직전, 백링크가 끊긴다면?</h3>
+                        <p>서버 비용 아끼려다 사이트 퐁째로 날아간다. 도메인 관리는 생명줄이다. 만료 알림보다 빠른 백업이 필요하다.</p>
+                    </div>
+                    <a href="#" style="margin-top:1rem; font-weight:bold;">자세히 보기 &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section 3: FAQ / Opinion -->
+        <section>
+            <h2>자주 묻는 질문 (Brutal Truth)</h2>
+            
+            <div style="margin-top: 2rem;">
+                <h3>Q. SEO 는 이제 돈만 먹는 하마 아닌가요?</h3>
+                <p>아니오. '돈'을 버리는 애매한 작업을 하니까 그렇ᇂ다. 
+                확실한 '급수소 (서버/링크)' 에 연걸파면 물은 뿜어진다. 
+                똥물을 정수하는 게 내 일이다. 서울 서부권 자영업자라면 확신해라.</p>
+            </div>
+
+            <div style="margin-top: 2rem; border-top: 1px dashed #444; padding-top: 1rem;">
+                <h3>Q. ᄋ유튜브 쇼츠, 틱톡이 대세라면서요?</h3>
+                <p>유입은 돼도 '신뢰' 는 쌓기 힘들다. 검색 엔진에 남는 기록이 자산이다. 
+                영사ᄀ은 흐른다. 텍스트는 박제된다. 박제된 1 급수 백링크가 자산을 만든다.</p>
+            </div>
+        
+<div class="seo-visual-divider" role="separator" aria-label="마르지 않는 1급수 백링크 주스 공급 서비스 구분선" style="margin:80px 0;height:1px;background:#666666;opacity:0.1"></div>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WATER SERVER. All Rights Reserved.</p>
+        <p>서울 서부권 자영업자 브로의 경험 공유 | 마르지 않는 1 ᄀ급수 백링크 주ᅮ스 공급소</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('nav-list');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

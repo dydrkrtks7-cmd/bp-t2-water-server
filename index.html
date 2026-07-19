@@ -1,95 +1,146 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>트래픽 필터링 및 봇 트래픽 정화 | 워터서버</title>
-<meta name="description" content="SEO 트래픽 정화 시스템. 가짜 봇 트래픽 필터링, 어뷰징 트래픽 차단, 순수 진성 유저 유입 및 전환율 방어 가이드.">
-<link rel="canonical" href="https://water-server.pages.dev">
-<style>
-*{margin:0;padding:0;box-sizing:border-box}:root{--p:#0f172a;--g:#38bdf8;--a:#818cf8;--t:#f8fafc}body{font-family:'Noto Sans KR',sans-serif;background:var(--p);color:var(--t);line-height:1.8}a{color:inherit;text-decoration:none}
-.nv{position:fixed;top:0;left:0;right:0;z-index:99;background:rgba(15,23,42,.97);backdrop-filter:blur(10px);padding:.8rem 2rem;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(56,189,248,.2)}.nl{font-size:1rem;font-weight:800;color:var(--g)}.nm{display:flex;gap:1.5rem;list-style:none}.nm a{font-size:.82rem;color:rgba(248,250,252,.6);transition:.2s}.nm a:hover{color:var(--g)}
-.hero{padding:8rem 2rem 4rem;text-align:center;background:linear-gradient(160deg,#0f172a,#1e3a8a,#0f172a)}.hb2{display:inline-block;padding:.3rem 1rem;border:1px solid var(--g);border-radius:99px;font-size:.68rem;color:var(--g);letter-spacing:.1em;margin-bottom:1rem}
-.hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:900;line-height:1.2;margin-bottom:1rem}.hero h1 em{font-style:normal;color:var(--g)}
-.hsub{font-size:.9rem;color:rgba(248,250,252,.6);max-width:480px;margin:0 auto}
-.w{max-width:860px;margin:0 auto;padding:4rem 2rem}.tg{font-size:.68rem;letter-spacing:.12em;color:var(--g);margin-bottom:.5rem}.st{font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:800;margin-bottom:.6rem}.sd{color:rgba(248,250,252,.6);font-size:.88rem;margin-bottom:2rem}
-.article{background:rgba(255,255,255,.02);border:1px solid rgba(56,189,248,.2);border-radius:1rem;padding:2.5rem;margin-bottom:2rem}
-.article h2{font-size:1.15rem;font-weight:800;color:var(--g);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:1px solid rgba(56,189,248,.2)}
-.article h3{font-size:.95rem;font-weight:700;color:var(--a);margin:1.5rem 0 .5rem}
-.article p{font-size:.86rem;color:rgba(248,250,252,.8);margin-bottom:.8rem}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem;margin:2rem 0}
-.card{background:rgba(255,255,255,.03);border:1px solid rgba(56,189,248,.2);border-radius:.8rem;padding:1.5rem;transition:.3s}.card:hover{border-color:var(--a);box-shadow:inset 0 0 15px rgba(56,189,248,.1)}.icon{font-size:1.8rem;margin-bottom:.6rem}.card h3{font-size:.92rem;font-weight:700;color:var(--g);margin-bottom:.4rem}.card p{font-size:.8rem;color:rgba(248,250,252,.6)}
-footer{padding:1.5rem;text-align:center;border-top:1px solid rgba(56,189,248,.2);font-size:.72rem;color:rgba(248,250,252,.4)}
-</style>
-<meta property="og:image" content="og-image.svg">
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>새벽 3시의 마포 백서: 정찰제 셔츠룸 늦은 시간 연장 가이드</title>
+  <link rel="canonical" href="https://water-server.store">
+  <meta name="bpaas-design-system" content="editorial-apple">
+  <meta name="bpaas-design-theme" content="kr-gold">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "새벽 셔츠룸 늦은시간 연장 가이드",
+    "url": "https://water-server.store"
+  }
+  </script>
+  <style>
+    :root {
+      --primary: #0A2240;
+      --accent: #D5A100;
+      --bg: #fafafa;
+      --text: #2d2424;
+      --font: 'Georgia', 'Nanum Myeongjo', serif;
+      --line: rgba(10, 34, 64, 0.08);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font);
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.9;
+      letter-spacing: 0.03em;
+    }
+    .m-wrap-720 {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 20px;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .m-logo {
+      font-family: -apple-system, sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+    }
+    .m-hero {
+      margin-bottom: 60px;
+      text-align: center;
+    }
+    .m-hero h1 {
+      font-size: 2.5rem;
+      font-weight: 300;
+      color: var(--primary);
+      line-height: 1.3;
+      margin-bottom: 20px;
+    }
+    .m-hero p {
+      font-size: 1.1rem;
+      color: #555;
+      font-style: italic;
+    }
+    .m-dropcap::first-letter {
+      font-size: 4.5rem;
+      float: left;
+      line-height: 0.8;
+      padding-top: 4px;
+      padding-right: 8px;
+      color: var(--primary);
+      font-weight: 700;
+    }
+    .m-divider {
+      width: 40px;
+      height: 1px;
+      background: var(--accent);
+      margin: 40px auto;
+    }
+    .m-case {
+      background: #f4f4ee;
+      padding: 30px;
+      border-left: 2px solid var(--accent);
+      margin: 40px 0;
+    }
+    .m-case h4 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 10px;
+      font-family: -apple-system, sans-serif;
+      font-weight: 700;
+    }
+    .m-case p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 0;
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      padding-top: 40px;
+      font-family: -apple-system, sans-serif;
+      font-size: 0.8rem;
+      color: #888;
+      text-align: center;
+      margin-top: 80px;
+    }
+  </style>
 </head>
 <body>
-<nav class="nv"><div class="nl">💧 워터서버</div><ul class="nm"><li><a href="#purify">정화시스템</a></li><li><a href="#bot">봇차단</a></li><li><a href="#clean">진성유저</a></li></ul></nav>
+  <header class="m-wrap-720">
+    <a href="/" class="m-logo">Midnight Water Server</a>
+  </header>
 
-<section class="hero">
-
-<!-- SEO Visual 1: 마르지 않는 1급수 백링크 주스 공급 서비스 Editorial Apple Hero -->
-<div class="seo-visual-hero" role="img" aria-label="신뢰할 수 있는 서비스 —  마르지 않는 1급수 백링크 주스 공급 서비스" 
-     style="width:100%;padding:64px 24px;background:#faf9f6;border-bottom:1px solid #e5e5e0;text-align:left;margin:32px 0">
-  <div style="max-width:800px;margin:0 auto">
-    <div style="font-family:serif;font-size:0.9rem;text-transform:uppercase;letter-spacing:0.3em;color:#8a7355;margin-bottom:16px">— EDITORIAL PROFILES</div>
-    <div style="font-size:3.5em;line-height:1.1;font-weight:400;font-family:serif;color:#1c1c1e;letter-spacing:-0.03em;margin-bottom:16px">마르지 않는 1급수 백링크 주스 공급 서비스</div>
-    <p style="font-size:1.05rem;line-height:1.6;color:#1c1c1e;opacity:0.85;max-width:600px">신뢰할 수 있는 서비스에 관한 독립적이고 깊이 있는 정보를 제공합니다.</p>
-  </div>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"마르지 않는 1급수 백링크 주스 공급 서비스","description":"신뢰할 수 있는 서비스","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
-</div>
-<div class="hb2">✦ SEO 트래픽 정화 솔루션 ✦</div>
-<h1>허수 트래픽 필터링<br><em>순수 진성 유저</em> 추출</h1>
-<p class="hsub">이탈률을 높이는 악성 봇 트래픽을 차단(정수)하여<br>순도 높은 전환 트래픽만을 머니사이트로 흘려보냅니다.</p>
-</section>
-
-<!-- SEO Visual 2: 콘텐츠 급수 정화 Cardless Editorial List -->
-<div class="seo-visual-cards" role="img" aria-label="마르지 않는 1급수 백링크 주스 공급 서비스 콘텐츠 급수 정화 — 신뢰할 수 있는 서비스" 
-     style="display:flex;flex-direction:column;gap:0;margin:40px 0;border-top:1px solid #e5e5e0;border-bottom:1px solid #e5e5e0;background:#faf9f6">
-  <div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
-    <div style="display:flex;align-items:center;gap:24px">
-      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 01 ]</span>
-      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">SEO 대책</span>
+  <main class="m-wrap-720">
+    <div class="m-hero">
+      <h1>새벽 3시, 마포 공덕역 주변에서 정찰제로 편안하게 연장할 수 있나요?</h1>
+      <p>"늦은 시간 연장 거래에서 발생하는 위조 계산서 꼼수를 피하고, 새벽에도 쾌적하게 힐링하는 블로거의 객관적 2차 연장 보고서"</p>
+      <div class="m-divider"></div>
     </div>
-    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">마르지 않는 1급수 백링크 주스 공급 서비스</span>
-  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
-    <div style="display:flex;align-items:center;gap:24px">
-      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 02 ]</span>
-      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">집객 지원</span>
-    </div>
-    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">마르지 않는 1급수 백링크 주스 공급 서비스</span>
-  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:none;background:transparent">
-    <div style="display:flex;align-items:center;gap:24px">
-      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 03 ]</span>
-      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">분석</span>
-    </div>
-    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">마르지 않는 1급수 백링크 주스 공급 서비스</span>
-  </div>
-</div>
 
-<section class="w" id="purify">
-<div class="article">
-<h2>💧 트래픽에도 '수질'이 있습니다</h2>
-<p>트래픽이 아무리 많아도 이탈률(Bounce Rate)이 90%에 달하고 체류 시간이 10초 미만이라면 구글은 당신의 사이트를 저품질로 인식합니다. 워터서버는 트래픽 펌핑 봇, 스크래핑 크롤러 등 더러운 트래픽을 1차 필터에서 걸러냅니다.</p>
-<h3>나쁜 트래픽의 증상</h3>
-<p>✓ 알 수 없는 러시아/중국 리퍼럴(Referral) 트래픽 급증<br>
-✓ Direct 트래픽이 비정상적으로 높고 전환은 0인 상태<br>
-✓ 대역폭 과다 소진 및 서버 다운 현상</p>
-</div>
-</section>
+    <article class="m-content">
+      <p class="m-dropcap">대부분의 비즈니스 미팅과 동기 회식은 밤 11시를 넘기며 1차 피크를 맞이하지만, 진짜 깊은 대화와 프라이빗한 힐링은 새벽 2~3시 이후에 시작됩니다. 하지만 이 늦은 시간대에 2차 연장 셔츠룸을 탐색할 때, 광고주와 손님들은 가장 큰 바가지 위험에 노출되곤 합니다. 술기운에 취한 새벽녘, 정찰제인 줄 알고 유도되어 입장했다가 정산할 때 실장 지명 팁, 강제 안주 오버차지, 부가세 카드 수수료 20% 폭리를 얹은 위조 계산서 성격의 청구서를 보고 놀라 기분을 잡치는 사례가 매달 수십 건씩 보고되고 있기 때문입니다.</p>
 
-<section class="w" id="bot" style="padding-top:0">
-<div class="tg">■ 3단계 정화 필터</div>
-<h2 class="st">악성 봇 완벽 차단 시스템</h2>
-<div class="grid">
-<div class="card"><div class="icon">🛡️</div><h3>WAF 필터링</h3><p>Cloudflare 웹 방화벽 수준에서 알려진 악성 봇 핑거프린트와 프록시 IP를 원천 차단.</p></div>
-<div class="card"><div class="icon">🚫</div><h3>서버사이드 차단</h3><p>.htaccess 및 Nginx 설정을 통해 쓰레기 리퍼럴 도메인 및 불량 User-Agent 접근 제한.</p></div>
-<div class="card"><div class="icon">🚰</div><h3>트래픽 클렌징</h3><p>진성 유저(인간)만 구별해내는 챌린지 룰 도입으로 순도 99%의 전환 유저만 안전하게 통과.</p></div>
-</div>
+      <p>블로거 리뷰어로서 다년간 마포 및 강서 일대의 야간 룸 비즈니스 구역을 객관적으로 모니터링한 결과, 새벽 3시 이후 늦은 시간 연장 거래 시 반드시 확보해야 할 안심 안전 기준을 아래 사례 분석을 통해 제시합니다.</p>
 
-<div class="seo-visual-divider" role="separator" aria-label="마르지 않는 1급수 백링크 주스 공급 서비스 구분선" style="margin:32px 0;text-align:center;color:#e5e5e0;font-size:0.85rem;letter-spacing:0.5em">◆ ◆ ◆</div>
-</section>
+      <div class="m-case">
+        <h4>📋 케이스 스터디: 새벽 3시 연장 계약의 명암</h4>
+        <p><strong>[사례 A - 불법 연장 과금]:</strong> 사전 예약을 거치지 않고 새벽 3시경 즉흥 입장. 계산 시 실장이 교묘히 "새벽 야간 오버타임 할증료" 및 "매니저 추가 팁" 15만 원을 강제 추가하여 영수증 시비 발생.</p>
+        <p style="margin-top:12px;"><strong>[사례 B - 안심 정찰 연장]:</strong> 입장 전 담당 실장과 카톡 메시지로 '새벽 연장 추가비 0원 정찰제 확약'을 보존한 뒤 입장. 추가 실랑이 전혀 없이 깔끔하게 카드 투명 정산 완료.</p>
+      </div>
 
-<footer><p>💧 워터서버 | SEO 트래픽 필터링 및 악성 봇 차단</p><p style="margin-top:.3rem">© 2025 water-server. All rights reserved.</p></footer>
+      <p>새벽 시간대일수록 룸 내의 **강제 공기 환기 시스템(1시간 5회 순환)**이 제대로 기계식 구동되고 있는지 스캔하는 것도 중요합니다. 공기가 탁하면 새벽 숙취가 배가됩니다. 마포 주요 거점 지하철역 7번 출구 도보 3분 연접 위치에 안전 셔츠룸 안내 센터가 정직하게 운영 중이며, 새벽 정찰 예약 상담은 **010-0000-0000**으로 신뢰성 있게 조율됩니다.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>MIDNIGHT WATER SERVER &copy; 2026. All rights reserved.</p>
+  </footer>
 </body>
 </html>
